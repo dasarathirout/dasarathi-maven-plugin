@@ -96,4 +96,11 @@
             <url>https://maven.google.com</url>
         </repository>
     </repositories>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/dasarathirout/dasarathi-maven-plugin</url>
+        </repository>
+    </distributionManagement>
 </project>
