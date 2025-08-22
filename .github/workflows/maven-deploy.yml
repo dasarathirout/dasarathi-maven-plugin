@@ -9,8 +9,8 @@ env:
   PRIMARY_MAVEN_MODULE: ${{ github.event.repository.name }}
 
 permissions:
-  contents: write
-  pull-requests: write
+  packages: write
+  contents: read
 
 jobs:
   build-and-deploy:
