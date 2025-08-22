@@ -15,4 +15,8 @@ mvn clean install
 mvn com.rout.dasarathi:dasarathi-maven-plugin:v1.0.0-SNAPSHOT:message
 ```
 
-![Maven Command Console Output](./docs/img/image-cli-output.png?raw=true)
+#### Plugin Console Output
+<img src="./docs/img/image-cli-output.png" alt="Plugin Run Console Output">
+
+#### IDE Maven Tool Window Plugin
+<img src="./docs/img/image-ide-maven-tool-window-plugin.png" alt="IDE Maven Tool Window Plugin" width="900" height="700">
