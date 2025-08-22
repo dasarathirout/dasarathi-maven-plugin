@@ -6,9 +6,10 @@ import java.io.InputStreamReader;
 import java.util.stream.Collectors;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
+import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 
-@Mojo(name = "message")
+@Mojo(name = "message", defaultPhase = LifecyclePhase.COMPILE)
 public class GreetingMojo extends AbstractMojo {
 
   private static final String MESSAGE_FILE = "message.txt";
