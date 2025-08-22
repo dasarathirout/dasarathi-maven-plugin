@@ -7,13 +7,13 @@ import org.apache.maven.plugins.annotations.Mojo;
 @Mojo(name = "message")
 public class GreetingMojo extends AbstractMojo {
 
-    private static final String LINE="★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★";
-    private static final String MESSAGE="★★              HELLO.. MAVEN WORLD!            ★★";
+    private static final String STAR_LINE="★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★";
+    private static final String PLUGIN_MESSAGE="★                        Hello... Maven Plugin!                        ★";
 
     @Override
     public void execute() throws MojoExecutionException {
-        getLog().info(LINE);
-        getLog().info(MESSAGE);
-        getLog().info(LINE);
+        getLog().info(STAR_LINE);
+        getLog().info(PLUGIN_MESSAGE);
+        getLog().info(STAR_LINE);
     }
 }
