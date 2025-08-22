@@ -1,13 +1,12 @@
 package com.rout.dasarathi.plugin.message;
 
-import org.apache.maven.plugin.AbstractMojo;
-import org.apache.maven.plugin.MojoExecutionException;
-import org.apache.maven.plugins.annotations.Mojo;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.stream.Collectors;
+import org.apache.maven.plugin.AbstractMojo;
+import org.apache.maven.plugin.MojoExecutionException;
+import org.apache.maven.plugins.annotations.Mojo;
 
 @Mojo(name = "message")
 public class GreetingMojo extends AbstractMojo {
@@ -20,21 +19,20 @@ public class GreetingMojo extends AbstractMojo {
 
   @Override
   public void execute() throws MojoExecutionException {
+    logMessageFile();
     getLog().info(STAR_LINE);
     getLog().info(PLUGIN_MESSAGE);
     getLog().info(STAR_LINE);
-
-      logMessageFile();
   }
 
   void logMessageFile() {
     final InputStream inputStream = getClass().getClassLoader().getResourceAsStream(MESSAGE_FILE);
     if (inputStream == null) {
-        // DO NOTHING
+      // DO NOTHING
     } else {
-
       try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
-        final String messageContents = reader.lines().collect(Collectors.joining(System.lineSeparator()));
+        final String messageContents =
+            reader.lines().collect(Collectors.joining(System.lineSeparator()));
         getLog().info(messageContents);
       } catch (Exception e) {
         // DO NOTHING
