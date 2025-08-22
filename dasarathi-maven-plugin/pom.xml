@@ -10,7 +10,7 @@
         <version>v1.0.0-SNAPSHOT</version>
     </parent>
 
-    <name>com.rout.dasarathi</name>
+    <name>dasarathi-maven-plugin</name>
     <artifactId>dasarathi-maven-plugin</artifactId>
     <version>v1.0.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
