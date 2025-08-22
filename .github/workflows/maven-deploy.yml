@@ -7,6 +7,7 @@ on:
 
 env:
   PRIMARY_MAVEN_MODULE: ${{ github.event.repository.name }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 permissions:
   packages: write
