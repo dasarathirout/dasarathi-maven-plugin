@@ -4,11 +4,17 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rout.dasarathi</groupId>
-    <artifactId>dasarathi-maven-plugin</artifactId>
+    <artifactId>dasarathi-maven-plugin-parent</artifactId>
     <version>v1.0.0-SNAPSHOT</version>
-    <packaging>maven-plugin</packaging>
-    <name>dasarathi-maven-plugin</name>
+    <packaging>pom</packaging>
+    <name>dasarathi-maven-plugin-parent</name>
     <url>https://github.com/dasarathirout/dasarathi-maven-plugin.git</url>
+
+    <modules>
+        <module>dasarathi-maven-plugin</module>
+        <module>dasarathi-maven-plugin-example</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compilerSource>8</compilerSource>
