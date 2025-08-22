@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rout.dasarathi</groupId>
-    <artifactId>dasarathi-message</artifactId>
+    <artifactId>dasarathi-maven-plugin</artifactId>
     <version>v1.0.0-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
     <name>dasarathi-maven-plugin</name>
@@ -13,13 +13,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compilerSource>8</compilerSource>
         <compilerTarget>8</compilerTarget>
-        <mavenApiVersion>3.9.11</mavenApiVersion>
-        <mavenCoreVersion>3.9.11</mavenCoreVersion>
-        <mavenAnnotationVersion>3.15.1</mavenAnnotationVersion>
-        <archunitVersion>1.4.1</archunitVersion>
+        <mavenGoalPrefix>dasarathi</mavenGoalPrefix>
         <junitVersion>5.13.4</junitVersion>
+        <archunitVersion>1.4.1</archunitVersion>
         <surefireVersion>3.5.3</surefireVersion>
         <compilerVersion>3.14.0</compilerVersion>
+        <mavenApiVersion>3.9.11</mavenApiVersion>
+        <mavenCoreVersion>3.9.11</mavenCoreVersion>
+        <mavenPluginVersion>3.15.1</mavenPluginVersion>
+        <mavenAnnotationVersion>3.15.1</mavenAnnotationVersion>
     </properties>
     <dependencies>
         <dependency>
@@ -63,6 +65,13 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefireVersion}</version>
+            </plugin>
+            <plugin>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>${mavenPluginVersion}</version>
+                <configuration>
+                    <goalPrefix>${mavenGoalPrefix}</goalPrefix>
+                </configuration>
             </plugin>
         </plugins>
     </build>

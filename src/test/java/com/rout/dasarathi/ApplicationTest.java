@@ -1,9 +1,11 @@
 package com.rout.dasarathi;
 
+import org.junit.jupiter.api.Test;
+
 public class ApplicationTest
 {
     @Test
-    void testMainMethodOutput(){
-        
+    void doApplicationTest(){
+        assert(true);
     }
 }
