@@ -1,4 +1,4 @@
-package com.rout.dasarathi.message.arts;
+package com.rout.dasarathi.plugin.message.arts;
 
 public final class TextArt {
   private static final String CHAR_000 =
