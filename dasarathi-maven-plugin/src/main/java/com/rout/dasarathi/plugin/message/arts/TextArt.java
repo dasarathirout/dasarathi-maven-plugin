@@ -1,5 +1,9 @@
 package com.rout.dasarathi.plugin.message.arts;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.ConcurrentSkipListSet;
+
 public final class TextArt {
     private static final String CHAR_000 =
 """
@@ -135,102 +139,377 @@ public final class TextArt {
 
     private static final String CHAR_033 =
 """
+   \s
+ ███
+░███
+░███
+░███
+░███
+░░░\s
+ ███
+░░░\s
+   \s
+   \s
 """;
 
     private static final String CHAR_034 =
 """
+     \s
+ ██ ██
+░██░██
+░░ ░░\s
+     \s
+     \s
+     \s
+     \s
+     \s
+     \s
+     \s
 """;
 
     private static final String CHAR_035 =
 """
+             \s
+   ███  ███  \s
+ ████████████\s
+░░░███░░███░ \s
+ ████████████\s
+░░░███░░███░ \s
+  ░░░  ░░░   \s
+             \s
+             \s
+             \s
+             \s
 """;
 
     private static final String CHAR_036 =
 """
+       \s
+   ███ \s
+  ██████
+ ███░░░\s
+░░█████\s
+ ░░░░███
+ ██████\s
+░░░███ \s
+  ░░░  \s
+       \s
+       \s
 """;
 
     private static final String CHAR_037 =
 """
+               \s
+  ███        ███
+ ░░░       ███░\s
+         ███░  \s
+       ███░    \s
+     ███░      \s
+   ███░        \s
+ ███░       ███\s
+░░░        ░░░ \s
+               \s
+               \s 
 """;
 
     private static final String CHAR_038 =
 """
+          \s
+   ██████ \s
+  ███░░███\s
+ ░░██████ \s
+  ██████  \s
+░███░░███ \s
+░███ ░░███\s
+░░█████░███
+ ░░░░░ ░░░\s
+          \s
+          \s
 """;
 
     private static final String CHAR_039 =
 """
+   \s
+  ██
+ ███
+░░░\s
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
 """;
 
     private static final String CHAR_040 =
 """
+     \s
+   ███
+  ███\s
+ ███ \s
+░███ \s
+░███ \s
+░░███\s
+ ░░███
+  ░░░\s
+     \s
+     \s
 """;
 
     private static final String CHAR_041 =
 """
+     \s
+ ███ \s
+░░███\s
+ ░░███
+  ░███
+  ░███
+  ███\s
+ ██░ \s
+░░░  \s
+     \s
+     \s
 """;
 
     private static final String CHAR_042 =
 """
+              \s
+      ███     \s
+ ███ ░███  ███\s
+░░░█████████░ \s
+  ░░░█████░   \s
+   █████████  \s
+ ███░░███░░███\s
+░░░  ░███ ░░░ \s
+     ░░░      \s
+              \s
+              \s
 """;
 
     private static final String CHAR_043 =
 """
+           \s
+           \s
+     ███   \s
+    ░███   \s
+ ███████████
+░░░░░███░░░\s
+    ░███   \s
+    ░░░    \s
+           \s
+           \s
+           \s
 """;
 
     private static final String CHAR_044 =
 """
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
+  ██
+ ██\s
+░░ \s
+   \s
 """;
 
     private static final String CHAR_045 =
 """
+         \s
+         \s
+         \s
+         \s
+██████████
+░░░░░░░░░\s
+         \s
+         \s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_046 =
 """
+  \s
+  \s
+  \s
+  \s
+  \s
+  \s
+  \s
+ ██
+░░\s
+  \s
+  \s
 """;
 
     private static final String CHAR_047 =
 """
+               \s
+             ███
+           ███░\s
+         ███░  \s
+       ███░    \s
+     ███░      \s
+   ███░        \s
+ ███░          \s
+░░░            \s
+               \s
+               \s
 """;
 
     private static final String CHAR_048 =
 """
+           \s
+    █████  \s
+  ███░░░███\s
+ ███   ░░███
+░███    ░███
+░███    ░███
+░░███   ███\s
+ ░░░█████░ \s
+   ░░░░░░  \s
+           \s
+           \s
 """;
 
     private static final String CHAR_049 =
 """
+     \s
+ ████\s
+░░███\s
+ ░███\s
+ ░███\s
+ ░███\s
+ ░███\s
+ █████
+░░░░░\s
+     \s
+     \s
 """;
 
     private static final String CHAR_050 =
 """
+          \s
+  ████████\s
+ ███░░░░███
+░░░    ░███
+   ███████\s
+  ███░░░░ \s
+ ███      █
+░██████████
+░░░░░░░░░░\s
+          \s
+          \s
 """;
 
     private static final String CHAR_051 =
 """
+         \s
+  ████████
+ ███░░░░██
+░░░    ░██
+   ██████░
+  ░░░░░░██
+ ███   ░██
+░░████████
+ ░░░░░░░░\s
+         \s
+         \s
 """;
 
     private static final String CHAR_052 =
 """
+           \s
+ █████ █████
+░░███ ░░███\s
+ ░███  ░███\s
+ ░██████████
+ ░░░░░░░███░
+       ░███░
+       █████
+      ░░░░░\s
+           \s
+           \s
 """;
 
     private static final String CHAR_053 =
 """
+          \s
+ ██████████
+░███░░░░░░█
+░███     ░\s
+░█████████\s
+░░░░░░░░███
+ ███   ░███
+░░████████\s
+ ░░░░░░░░ \s
+          \s
+          \s
 """;
 
     private static final String CHAR_054 =
 """
+          \s
+  ████████\s
+ ███░░░░███
+░███   ░░░\s
+░█████████\s
+░███░░░░███
+░███   ░███
+░░████████\s
+ ░░░░░░░░ \s
+          \s   
+          \s   
 """;
 
     private static final String CHAR_055 =
 """
+          \s
+ ██████████
+░███░░░░███
+░░░    ███\s
+      ███ \s
+     ███  \s
+    ███   \s
+   ███    \s
+  ░░░     \s
+          \s
+          \s
 """;
 
     private static final String CHAR_056 =
 """
+          \s
+  ████████\s
+ ███░░░░███
+░███   ░███
+░░████████\s
+ ███░░░░███
+░███   ░███
+░░████████\s
+ ░░░░░░░░ \s
+          \s
+          \s
 """;
 
     private static final String CHAR_057 =
 """
+          \s
+  ████████\s
+ ███░░░░███
+░███   ░███
+░░█████████
+ ░░░░░░░███
+ ███   ░███
+░░████████\s
+ ░░░░░░░░ \s
+          \s
+          \s
 """;
 
     private static final String CHAR_058 =
@@ -508,7 +787,7 @@ public final class TextArt {
     private static final String CHAR_126 =
 """
 """;
-    public static final String[] ARRAY = {
+    private static final String[] ART_ARRAY = {
             CHAR_000, CHAR_001, CHAR_002, CHAR_003, CHAR_004, CHAR_005, CHAR_006, CHAR_007, CHAR_008,
             CHAR_009, CHAR_010, CHAR_011, CHAR_012, CHAR_013, CHAR_014, CHAR_015, CHAR_016, CHAR_017,
             CHAR_018, CHAR_019, CHAR_020, CHAR_021, CHAR_022, CHAR_023, CHAR_024, CHAR_025, CHAR_026,
@@ -525,8 +804,21 @@ public final class TextArt {
             CHAR_117, CHAR_118, CHAR_119, CHAR_120, CHAR_121, CHAR_122, CHAR_123, CHAR_124, CHAR_125,
             CHAR_126
     };
+    public static final List<String> TEXT_ART_LIST = Collections.synchronizedList(List.of(ART_ARRAY));
     public static final int ART_HEIGHT=11;
-    private static final String SPACE_BAR=
+
+    public static final List<List<String>> ART_MATRIX=
+            Collections.synchronizedList(
+            TEXT_ART_LIST
+            .stream()
+            .map(characterTextArt->
+                    characterTextArt
+                            .lines()
+                            .toList()
+            ).toList());
+
+
+    private static final String SPACE=
 """
 
 
