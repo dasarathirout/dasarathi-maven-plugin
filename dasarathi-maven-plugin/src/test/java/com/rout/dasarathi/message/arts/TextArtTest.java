@@ -54,7 +54,7 @@ public class TextArtTest {
         for (int height = 0; height < CHARACTER_HEIGHT_12; height++){
             StringBuilder characterLine= new StringBuilder();
             for (int characterIndex = CHARACTER_MIN; characterIndex < CHARACTER_MAX; characterIndex++) {
-                characterLine.append(ART_MATRIX.get(characterIndex).get(height));
+                characterLine.append("  "+ART_MATRIX.get(characterIndex).get(height));
             }
             mergedTextArtLine.append(System.lineSeparator()).append(characterLine);
         }
