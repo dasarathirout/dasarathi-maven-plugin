@@ -19,10 +19,12 @@ public final class TextArt {
 \s
 \s
 \s
+\s
 """;
 
     public static final String SPACE=
 """
+ \s
  \s
  \s
  \s
@@ -115,6 +117,7 @@ public final class TextArt {
 ░░░\s
    \s
    \s
+   \s
 """;
 
     private static final String CHAR_034 =
@@ -123,6 +126,7 @@ public final class TextArt {
  ██ ██
 ░██░██
 ░░ ░░\s
+     \s
      \s
      \s
      \s
@@ -145,6 +149,7 @@ public final class TextArt {
              \s
              \s
              \s
+             \s
 """;
 
     private static final String CHAR_036 =
@@ -158,6 +163,7 @@ public final class TextArt {
  ██████\s
 ░░░███ \s
   ░░░  \s
+       \s
        \s
        \s
 """;
@@ -174,7 +180,8 @@ public final class TextArt {
  ███░       ███\s
 ░░░        ░░░ \s
                \s
-               \s 
+               \s
+               \s
 """;
 
     private static final String CHAR_038 =
@@ -190,6 +197,7 @@ public final class TextArt {
  ░░░░░ ░░░\s
           \s
           \s
+          \s
 """;
 
     private static final String CHAR_039 =
@@ -198,6 +206,7 @@ public final class TextArt {
   ██
  ███
 ░░░\s
+   \s
    \s
    \s
    \s
@@ -220,6 +229,7 @@ public final class TextArt {
   ░░░\s
      \s
      \s
+     \s
 """;
 
     private static final String CHAR_041 =
@@ -233,6 +243,7 @@ public final class TextArt {
   ███\s
  ██░ \s
 ░░░  \s
+     \s
      \s
      \s
 """;
@@ -250,6 +261,7 @@ public final class TextArt {
      ░░░      \s
               \s
               \s
+              \s
 """;
 
     private static final String CHAR_043 =
@@ -262,6 +274,7 @@ public final class TextArt {
 ░░░░░███░░░\s
     ░███   \s
     ░░░    \s
+           \s
            \s
            \s
            \s
@@ -280,6 +293,7 @@ public final class TextArt {
  ██\s
 ░░ \s
    \s
+   \s
 """;
 
     private static final String CHAR_045 =
@@ -290,6 +304,7 @@ public final class TextArt {
          \s
 ██████████
 ░░░░░░░░░\s
+         \s
          \s
          \s
          \s
@@ -310,6 +325,7 @@ public final class TextArt {
 ░░\s
   \s
   \s
+  \s
 """;
 
     private static final String CHAR_047 =
@@ -323,6 +339,7 @@ public final class TextArt {
    ███░        \s
  ███░          \s
 ░░░            \s
+               \s
                \s
                \s
 """;
@@ -340,6 +357,7 @@ public final class TextArt {
    ░░░░░░  \s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_049 =
@@ -353,6 +371,7 @@ public final class TextArt {
  ░███\s
  █████
 ░░░░░\s
+     \s
      \s
      \s
 """;
@@ -370,6 +389,7 @@ public final class TextArt {
 ░░░░░░░░░░\s
           \s
           \s
+          \s          
 """;
 
     private static final String CHAR_051 =
@@ -383,6 +403,7 @@ public final class TextArt {
  ███   ░██
 ░░████████
  ░░░░░░░░\s
+         \s
          \s
          \s
 """;
@@ -400,6 +421,7 @@ public final class TextArt {
       ░░░░░\s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_053 =
@@ -415,6 +437,7 @@ public final class TextArt {
  ░░░░░░░░ \s
           \s
           \s
+          \s
 """;
 
     private static final String CHAR_054 =
@@ -428,8 +451,9 @@ public final class TextArt {
 ░███   ░███
 ░░████████\s
  ░░░░░░░░ \s
-          \s   
-          \s   
+          \s
+          \s
+          \s
 """;
 
     private static final String CHAR_055 =
@@ -443,6 +467,7 @@ public final class TextArt {
     ███   \s
    ███    \s
   ░░░     \s
+          \s
           \s
           \s
 """;
@@ -460,6 +485,7 @@ public final class TextArt {
  ░░░░░░░░ \s
           \s
           \s
+          \s
 """;
 
     private static final String CHAR_057 =
@@ -473,6 +499,7 @@ public final class TextArt {
  ███   ░███
 ░░████████\s
  ░░░░░░░░ \s
+          \s
           \s
           \s
 """;
@@ -490,6 +517,7 @@ public final class TextArt {
 ░░\s
   \s
   \s
+  \s
 """;
 
     private static final String CHAR_059 =
@@ -504,6 +532,7 @@ public final class TextArt {
   ██
  ██\s
 ░░ \s
+   \s
    \s
 """;
 
@@ -520,6 +549,7 @@ public final class TextArt {
       ░░░ \s
           \s
           \s
+          \s
 """;
 
     private static final String CHAR_061 =
@@ -531,6 +561,7 @@ public final class TextArt {
 ░░░░░░░░░\s
  █████████
 ░░░░░░░░░\s
+         \s
          \s
          \s
          \s
@@ -550,6 +581,7 @@ public final class TextArt {
 ░░░      \s
          \s
          \s
+         \s
 """;
 
     private static final String CHAR_063 =
@@ -563,6 +595,7 @@ public final class TextArt {
  ░░░     \s
   ███    \s
  ░░░     \s
+         \s
          \s
          \s
 """;
@@ -580,6 +613,7 @@ public final class TextArt {
  ░░░░░░░░░ \s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_065 =
@@ -593,6 +627,7 @@ public final class TextArt {
  ░███    ░███\s
  █████   █████
 ░░░░░   ░░░░░\s
+             \s
              \s
              \s
 """;
@@ -610,6 +645,7 @@ public final class TextArt {
 ░░░░░░░░░░░  \s
              \s
              \s
+             \s
 """;
 
     private static final String CHAR_067 =
@@ -623,6 +659,7 @@ public final class TextArt {
 ░░███     ███
  ░░█████████\s
   ░░░░░░░░░ \s
+            \s
             \s
             \s
 """;
@@ -640,6 +677,7 @@ public final class TextArt {
 ░░░░░░░░░░  \s
             \s
             \s
+            \s
 """;
 
     private static final String CHAR_069 =
@@ -653,6 +691,7 @@ public final class TextArt {
  ░███ ░   █
  ██████████
 ░░░░░░░░░░\s
+          \s
           \s
           \s
 """;
@@ -670,6 +709,7 @@ public final class TextArt {
 ░░░░░      \s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_071 =
@@ -683,6 +723,7 @@ public final class TextArt {
 ░░███  ░░███\s
  ░░█████████\s
   ░░░░░░░░░ \s
+            \s
             \s
             \s
 """;
@@ -700,6 +741,7 @@ public final class TextArt {
 ░░░░░   ░░░░░\s
              \s
              \s
+             \s
 """;
 
     private static final String CHAR_073 =
@@ -713,6 +755,7 @@ public final class TextArt {
  ░███\s
  █████
 ░░░░░\s
+     \s
      \s
      \s
 """;
@@ -730,6 +773,7 @@ public final class TextArt {
  ░░░░░░░░  \s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_075 =
@@ -743,6 +787,7 @@ public final class TextArt {
  ░███ ░░███ \s
  █████ ░░████
 ░░░░░   ░░░░\s
+            \s
             \s
             \s
 """;
@@ -760,6 +805,7 @@ public final class TextArt {
 ░░░░░░░░░░░\s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_077 =
@@ -773,6 +819,7 @@ public final class TextArt {
  ░███      ░███\s
  █████     █████
 ░░░░░     ░░░░░\s
+               \s
                \s
                \s
 """;
@@ -790,6 +837,7 @@ public final class TextArt {
 ░░░░░    ░░░░░\s
               \s
               \s
+              \s
 """;
 
     private static final String CHAR_079 =
@@ -803,6 +851,7 @@ public final class TextArt {
 ░░███     ███\s
  ░░░███████░ \s
    ░░░░░░░   \s
+             \s
              \s
              \s
 """;
@@ -820,6 +869,7 @@ public final class TextArt {
 ░░░░░       \s
             \s
             \s
+            \s
 """;
 
     private static final String CHAR_081 =
@@ -833,6 +883,7 @@ public final class TextArt {
 ░░███ ░░████\s
  ░░░██████░██
    ░░░░░░ ░░\s
+            \s
             \s
             \s
 """;
@@ -850,6 +901,7 @@ public final class TextArt {
 ░░░░░   ░░░░░\s
              \s
              \s
+             \s
 """;
 
     private static final String CHAR_083 =
@@ -863,6 +915,7 @@ public final class TextArt {
  ███    ░███
 ░░█████████\s
  ░░░░░░░░░ \s
+           \s
            \s
            \s
 """;
@@ -880,6 +933,7 @@ public final class TextArt {
    ░░░░░   \s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_085 =
@@ -893,6 +947,7 @@ public final class TextArt {
  ░███   ░███\s
  ░░████████ \s
   ░░░░░░░░  \s
+            \s
             \s
             \s
 """;
@@ -910,6 +965,7 @@ public final class TextArt {
      ░░░     \s
              \s
              \s
+             \s
 """;
 
     private static final String CHAR_087 =
@@ -923,6 +979,7 @@ public final class TextArt {
   ░░░█████░█████░  \s
     ░░███ ░░███    \s
      ░░░   ░░░     \s
+                   \s
                    \s
                    \s
 """;
@@ -940,6 +997,7 @@ public final class TextArt {
 ░░░░░ ░░░░░\s
            \s
            \s
+           \s
 """;
 
     private static final String CHAR_089 =
@@ -953,6 +1011,7 @@ public final class TextArt {
     ░███   \s
     █████  \s
    ░░░░░   \s
+           \s
            \s
            \s
 """;
@@ -970,150 +1029,583 @@ public final class TextArt {
 ░░░░░░░░░░░ \s
             \s
             \s
+            \s
 """;
 
     private static final String CHAR_091 =
 """
+     \s
+ █████
+░███░\s
+░███ \s
+░███ \s
+░███ \s
+░███ \s
+░█████
+░░░░░\s
+     \s
+     \s
+     \s
 """;
 
     private static final String CHAR_092 =
 """
+         \s
+ ███     \s
+░░███    \s
+ ░░███   \s
+  ░░███  \s
+   ░░███ \s
+    ░░███\s
+     ░░███
+      ░░░\s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_093 =
 """
+     \s
+ █████
+░░░███
+  ░███
+  ░███
+  ░███
+  ░███
+ █████
+░░░░░\s
+     \s
+     \s
+     \s
 """;
 
     private static final String CHAR_094 =
 """
+      \s
+   ██ \s
+  ████\s
+ ██░░██
+░░  ░░\s
+      \s
+      \s
+      \s
+      \s
+      \s
+      \s
+      \s
 """;
 
     private static final String CHAR_095 =
 """
+         \s
+         \s
+         \s
+         \s
+         \s
+         \s
+         \s
+ █████████
+░░░░░░░░░\s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_096 =
 """
+   \s
+ ██\s
+░███
+░░░\s
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
+   \s
 """;
 
     private static final String CHAR_097 =
 """
+         \s
+         \s
+         \s
+  ██████ \s
+ ░░░░░███\s
+  ███████\s
+ ███░░███\s
+░░████████
+ ░░░░░░░░\s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_098 =
 """
+         \s
+ █████   \s
+░░███    \s
+ ░███████\s
+ ░███░░███
+ ░███ ░███
+ ░███ ░███
+ ████████\s
+░░░░░░░░ \s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_099 =
 """
+        \s
+        \s
+        \s
+  ██████\s
+ ███░░███
+░███ ░░░\s
+░███  ███
+░░██████\s
+ ░░░░░░ \s
+        \s
+        \s
+        \s
 """;
 
     private static final String CHAR_100 =
 """
+         \s
+     █████
+    ░░███\s
+  ███████\s
+ ███░░███\s
+░███ ░███\s
+░███ ░███\s
+░░████████
+ ░░░░░░░░\s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_101 =
 """
+        \s
+        \s
+        \s
+  ██████\s
+ ███░░███
+░███████\s
+░███░░░ \s
+░░██████\s
+ ░░░░░░ \s
+        \s
+        \s
+        \s
 """;
 
     private static final String CHAR_102 =
 """
+          \s
+    ██████\s
+   ███░░███
+  ░███ ░░░\s
+ ███████  \s
+░░░███░   \s
+  ░███    \s
+  █████   \s
+ ░░░░░    \s
+          \s
+          \s
+          \s
 """;
 
     private static final String CHAR_103 =
 """
+        \s
+        \s
+        \s
+  ███████
+ ███░░███
+░███ ░███
+░███ ░███
+░░███████
+ ░░░░░███
+ ███ ░███
+░░██████\s
+ ░░░░░░ \s
 """;
 
     private static final String CHAR_104 =
 """
+          \s
+ █████    \s
+░░███     \s
+ ░███████ \s
+ ░███░░███\s
+ ░███ ░███\s
+ ░███ ░███\s
+ ████ █████
+░░░░ ░░░░░\s
+          \s
+          \s
+          \s
 """;
 
     private static final String CHAR_105 =
 """
+     \s
+  ███\s
+ ░░░ \s
+ ████\s
+░░███\s
+ ░███\s
+ ░███\s
+ █████
+░░░░░\s
+     \s
+     \s
+     \s
 """;
 
     private static final String CHAR_106 =
 """
+         \s
+      ███\s
+     ░░░ \s
+     █████
+    ░░███\s
+     ░███\s
+     ░███\s
+     ░███\s
+     ░███\s
+ ███ ░███\s
+░░██████ \s
+ ░░░░░░  \s
 """;
 
     private static final String CHAR_107 =
 """
+ █████    \s
+░░███     \s
+ ░███ █████
+ ░███░░███\s
+ ░██████░ \s
+ ░███░░███\s
+ ████ █████
+░░░░ ░░░░░\s
+          \s
+          \s
+          \s
+          \s
 """;
 
     private static final String CHAR_108 =
 """
+ ████\s
+░░███\s
+ ░███\s
+ ░███\s
+ ░███\s
+ ░███\s
+ █████
+░░░░░\s
+     \s
+     \s
+     \s
+     \s
 """;
 
     private static final String CHAR_109 =
 """
+               \s
+               \s
+ █████████████ \s
+░░███░░███░░███\s
+ ░███ ░███ ░███\s
+ ░███ ░███ ░███\s
+ █████░███ █████
+░░░░░ ░░░ ░░░░░\s
+               \s
+               \s
+               \s
+               \s
 """;
 
     private static final String CHAR_110 =
 """
+          \s
+          \s
+ ████████ \s
+░░███░░███\s
+ ░███ ░███\s
+ ░███ ░███\s
+ ████ █████
+░░░░ ░░░░░\s
+          \s
+          \s
+          \s
+          \s
 """;
 
     private static final String CHAR_111 =
 """
+        \s
+        \s
+        \s
+  ██████\s
+ ███░░███
+░███ ░███
+░███ ░███
+░░██████\s
+ ░░░░░░ \s
+        \s
+        \s
+        \s
 """;
 
     private static final String CHAR_112 =
 """
+         \s
+         \s
+         \s
+ ████████\s
+░░███░░███
+ ░███ ░███
+ ░███ ░███
+ ░███████\s
+ ░███░░░ \s
+ ░███    \s
+ █████   \s
+░░░░░    \s
 """;
 
     private static final String CHAR_113 =
 """
+         \s
+         \s
+         \s
+  ████████
+ ███░░███\s
+░███ ░███\s
+░███ ░███\s
+░░███████\s
+ ░░░░░███\s
+     ░███\s
+     █████
+    ░░░░░\s
 """;
 
     private static final String CHAR_114 =
 """
+         \s
+         \s
+         \s
+ ████████\s
+░░███░░███
+ ░███ ░░░\s
+ ░███    \s
+ █████   \s
+░░░░░    \s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_115 =
 """
+        \s
+        \s
+        \s
+   █████\s
+  ███░░ \s
+ ░░█████\s
+  ░░░░███
+  ██████\s
+ ░░░░░░ \s
+        \s
+        \s
+        \s
 """;
 
     private static final String CHAR_116 =
 """
+         \s
+  █████  \s
+ ░░███   \s
+ ███████ \s
+░░░███░  \s
+  ░███   \s
+  ░███ ███
+  ░░█████\s
+   ░░░░░ \s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_117 =
 """
+          \s
+          \s
+          \s
+ █████ ████
+░░███ ░███\s
+ ░███ ░███\s
+ ░███ ░███\s
+ ░░████████
+  ░░░░░░░░\s
+          \s
+          \s
+          \s
 """;
 
     private static final String CHAR_118 =
 """
+           \s
+           \s
+           \s
+ █████ █████
+░░███ ░░███\s
+ ░███  ░███\s
+ ░░███ ███ \s
+  ░░█████  \s
+   ░░░░░   \s
+           \s
+           \s
+           \s
 """;
 
     private static final String CHAR_119 =
 """
+               \s
+               \s
+               \s
+ █████ ███ █████
+░░███ ░███░░███\s
+ ░███ ░███ ░███\s
+ ░░███████████ \s
+  ░░████░████  \s
+   ░░░░ ░░░░   \s
+               \s
+               \s
+               \s
 """;
 
     private static final String CHAR_120 =
 """
+           \s
+           \s
+           \s
+ █████ █████
+░░███ ░░███\s
+ ░░░█████░ \s
+  ███░░░███\s
+ █████ █████
+░░░░░ ░░░░░\s
+           \s
+           \s
+           \s
 """;
 
     private static final String CHAR_121 =
 """
+          \s
+          \s
+          \s
+ █████ ████
+░░███ ░███\s
+ ░███ ░███\s
+ ░███ ░███\s
+ ░░███████\s
+  ░░░░░███\s
+  ███ ░███\s
+ ░░██████ \s
+  ░░░░░░  \s
 """;
 
     private static final String CHAR_122 =
 """
+         \s
+         \s
+         \s
+ █████████
+░█░░░░███\s
+░   ███░ \s
+  ███░   █
+ █████████
+░░░░░░░░░\s
+         \s
+         \s
+         \s
 """;
 
     private static final String CHAR_123 =
 """
+       \s
+     ███
+    ██░\s
+   ██  \s
+ ███   \s
+░░░██  \s
+  ░░██ \s
+   ░░███
+    ░░░\s
+       \s
+       \s
+       \s
 """;
 
     private static final String CHAR_124 =
 """
+   \s
+ ███
+░███
+░███
+░███
+░███
+░███
+░███
+░░░\s
+   \s
+   \s
+   \s
 """;
 
     private static final String CHAR_125 =
 """
+       \s
+ ███   \s
+░░░██  \s
+  ░░██ \s
+   ░░███
+    ██░\s
+   ██  \s
+ ███   \s
+░░░    \s
+       \s
+       \s
+       \s
 """;
 
     private static final String CHAR_126 =
 """
+         \s
+   ███ ███
+ ███░███░\s
+░░░ ░░░  \s
+         \s
+         \s
+         \s
+         \s
+         \s
+         \s
+         \s
+         \s
 """;
     private static final String[] ART_ARRAY = {
             CHAR_000, CHAR_001, CHAR_002, CHAR_003, CHAR_004, CHAR_005, CHAR_006, CHAR_007, CHAR_008,
@@ -1133,7 +1625,7 @@ public final class TextArt {
             CHAR_126
     };
     public static final List<String> TEXT_ART_LIST = Collections.synchronizedList(List.of(ART_ARRAY));
-    public static final int ART_HEIGHT=11;
+    public static final int ART_HEIGHT_12=12;
 
     public static final List<List<String>> ART_MATRIX=
             Collections.synchronizedList(
