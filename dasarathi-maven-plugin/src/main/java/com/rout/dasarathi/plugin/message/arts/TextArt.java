@@ -2,512 +2,512 @@ package com.rout.dasarathi.plugin.message.arts;
 
 public final class TextArt {
     private static final String CHAR_000 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_001 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_002 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_003 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_004 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_005 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_006 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_007 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_008 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_009 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_010 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_011 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_012 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_013 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_014 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_015 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_016 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_017 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_018 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_019 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_020 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_021 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_022 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_023 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_024 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_025 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_026 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_027 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_028 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_029 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_030 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_031 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_032 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_033 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_034 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_035 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_036 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_037 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_038 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_039 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_040 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_041 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_042 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_043 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_044 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_045 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_046 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_047 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_048 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_049 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_050 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_051 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_052 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_053 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_054 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_055 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_056 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_057 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_058 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_059 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_060 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_061 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_062 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_063 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_064 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_065 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_066 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_067 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_068 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_069 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_070 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_071 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_072 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_073 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_074 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_075 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_076 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_077 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_078 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_079 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_080 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_081 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_082 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_083 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_084 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_085 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_086 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_087 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_088 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_089 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_090 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_091 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_092 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_093 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_094 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_095 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_096 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_097 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_098 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_099 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_100 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_101 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_102 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_103 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_104 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_105 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_106 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_107 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_108 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_109 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_110 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_111 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_112 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_113 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_114 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_115 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_116 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_117 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_118 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_119 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_120 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_121 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_122 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_123 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_124 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_125 =
-            """
-                    """;
+"""
+""";
 
     private static final String CHAR_126 =
-            """
-                    """;
+"""
+""";
     public static final String[] ARRAY = {
             CHAR_000, CHAR_001, CHAR_002, CHAR_003, CHAR_004, CHAR_005, CHAR_006, CHAR_007, CHAR_008,
             CHAR_009, CHAR_010, CHAR_011, CHAR_012, CHAR_013, CHAR_014, CHAR_015, CHAR_016, CHAR_017,
@@ -525,4 +525,19 @@ public final class TextArt {
             CHAR_117, CHAR_118, CHAR_119, CHAR_120, CHAR_121, CHAR_122, CHAR_123, CHAR_124, CHAR_125,
             CHAR_126
     };
+    public static final int ART_HEIGHT=11;
+    private static final String SPACE_BAR=
+"""
+
+
+
+
+
+
+
+
+
+
+
+""";
 }
