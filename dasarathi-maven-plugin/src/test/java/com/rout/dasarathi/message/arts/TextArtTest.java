@@ -14,51 +14,51 @@ public class TextArtTest {
     @Test
     void charactersHeightTest() {
         int characterIndex;
-        StringBuilder mergedArtLine = new StringBuilder();
+        StringBuilder mergedTextArtLine = new StringBuilder();
         for (characterIndex = CHARACTER_MIN; characterIndex < CHARACTER_MAX; characterIndex++) {
-            StringBuilder artSubLine = new StringBuilder();
-                for (int height = 0; height < CHARACTER_HEIGHT_12; height++) {
-                    assertEquals(CHARACTER_HEIGHT_12, ART_MATRIX.get(characterIndex).size(),
-                            "CharArt Size Should Be 12. characterIndex: "+ characterIndex+" => "+ (char) characterIndex );
-                    artSubLine.append(System.lineSeparator()).append(ART_MATRIX.get(characterIndex).get(height));
-                }
-            mergedArtLine.append(artSubLine);
-            System.out.println(mergedArtLine);
+            StringBuilder characterLine = new StringBuilder();
+            for (int height = 0; height < CHARACTER_HEIGHT_12; height++) {
+                assertEquals(CHARACTER_HEIGHT_12, ART_MATRIX.get(characterIndex).size(),
+                        "CharArt Size Should Be 12. characterIndex: " + characterIndex + " => " + (char) characterIndex);
+                characterLine.append(System.lineSeparator()).append(ART_MATRIX.get(characterIndex).get(height));
             }
+            mergedTextArtLine.append(characterLine);
+            System.out.println(mergedTextArtLine); // ONE ART PER LINE
+        }
     }
 
     @Test
     void charactersWidthTest() {
         int characterIndex;
-        StringBuilder mergedArtLine = new StringBuilder();
+        StringBuilder mergedTextArtLine = new StringBuilder();
         for (characterIndex = CHARACTER_MIN; characterIndex < CHARACTER_MAX; characterIndex++) {
-            StringBuilder artSubLine = new StringBuilder();
-            int currentWidth=0;
+            StringBuilder characterLine = new StringBuilder();
+            int currentWidth = 0;
             for (int height = 0; height < CHARACTER_HEIGHT_12; height++) {
-                if(height==0){
-                    currentWidth=ART_MATRIX.get(characterIndex).get(height).length();
-                }else{
-                    assertEquals(currentWidth,ART_MATRIX.get(characterIndex).get(height).length(),
-                            "Text Art Should Have Fixed Width For Each CharArt : "+characterIndex+" => "+ (char) characterIndex );
+                if (height == 0) {
+                    currentWidth = ART_MATRIX.get(characterIndex).get(height).length();
+                } else {
+                    assertEquals(currentWidth, ART_MATRIX.get(characterIndex).get(height).length(),
+                            "Text Art Should Have Fixed Width For Each CharArt : " + characterIndex + " => " + (char) characterIndex);
                 }
-                artSubLine.append(System.lineSeparator()).append(ART_MATRIX.get(characterIndex).get(height));
+                characterLine.append(System.lineSeparator()).append(ART_MATRIX.get(characterIndex).get(height));
             }
-            mergedArtLine.append(artSubLine);
+            mergedTextArtLine.append(characterLine);
         }
-        System.out.println(mergedArtLine);
+        System.out.println(mergedTextArtLine); // ONE ART PER LINE
     }
 
     @Test
-    void printTextArtWithCharacterIndex(){
-        StringBuilder mergedTextArtLine= new StringBuilder();
-        for (int height = 0; height < CHARACTER_HEIGHT_12; height++){
-            StringBuilder characterLine= new StringBuilder();
+    void printTextArtWithCharacterIndex() {
+        StringBuilder mergedTextArtLine = new StringBuilder();
+        for (int height = 0; height < CHARACTER_HEIGHT_12; height++) {
+            StringBuilder characterHeightLine = new StringBuilder();
             for (int characterIndex = CHARACTER_MIN; characterIndex < CHARACTER_MAX; characterIndex++) {
-                characterLine.append("  "+ART_MATRIX.get(characterIndex).get(height));
+                characterHeightLine.append("  ").append(ART_MATRIX.get(characterIndex).get(height));
             }
-            mergedTextArtLine.append(System.lineSeparator()).append(characterLine);
+            mergedTextArtLine.append(System.lineSeparator()).append(characterHeightLine);
         }
-        System.out.println(mergedTextArtLine);
+        System.out.println(mergedTextArtLine);// ALL ART SINGLE LINE
         assertTrue(true);
     }
 }
