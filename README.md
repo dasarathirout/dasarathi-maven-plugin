@@ -20,6 +20,7 @@ ___
 > ```
 
 #### Plugin Console Output
+
 >
 > <img src="./docs/img/image-cli-output.png" alt="Plugin Run Console Output">
 
@@ -31,14 +32,16 @@ ___
 > ```
 
 #### Plugin Console Output (with prefix-name)
+
 >
 > <img src="./docs/img/image-cli-output-prefix.png" alt="Plugin Run Console Output Prefix">
 
 #### IDE Maven Tool Window Plugin
+
 >
 > <img src="./docs/img/image-ide-maven-tool-window-plugin.png" alt="IDE Maven Tool Window Plugin" width="900" height="700">
 
 ***
 
 - https://www.asciiart.eu/text-to-ascii-art
-ASCII Art Generated With Font `DOS Rebel`, Size `6 PT` 
+  ASCII Art Generated With Font `DOS Rebel`, Size `6 PT` 
