@@ -1289,6 +1289,7 @@ public final class TextArt {
 
     private static final String CHAR_107 =
 """
+          \s
  █████    \s
 ░░███     \s
  ░███ █████
@@ -1300,11 +1301,11 @@ public final class TextArt {
           \s
           \s
           \s
-          \s
 """;
 
     private static final String CHAR_108 =
 """
+     \s
  ████\s
 ░░███\s
  ░███\s
@@ -1316,11 +1317,11 @@ public final class TextArt {
      \s
      \s
      \s
-     \s
 """;
 
     private static final String CHAR_109 =
 """
+               \s
                \s
                \s
  █████████████ \s
@@ -1332,11 +1333,11 @@ public final class TextArt {
                \s
                \s
                \s
-               \s
 """;
 
     private static final String CHAR_110 =
 """
+          \s
           \s
           \s
  ████████ \s
@@ -1345,7 +1346,6 @@ public final class TextArt {
  ░███ ░███\s
  ████ █████
 ░░░░ ░░░░░\s
-          \s
           \s
           \s
           \s

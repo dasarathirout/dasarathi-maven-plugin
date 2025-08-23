@@ -28,6 +28,20 @@
                 <groupId>com.rout.dasarathi</groupId>
                 <artifactId>dasarathi-maven-plugin</artifactId>
                 <version>v1.0.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <id>1-validate-message</id>
+                        <phase>
+                            validate
+                        </phase>
+                        <goals>
+                            <goal>message</goal>
+                        </goals>
+                        <configuration>
+                            <userMessage>dasarathi-mvn-3</userMessage>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

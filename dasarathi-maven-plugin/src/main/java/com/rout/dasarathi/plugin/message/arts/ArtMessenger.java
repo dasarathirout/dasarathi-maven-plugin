@@ -25,7 +25,7 @@ public final class ArtMessenger {
     }
 
     private synchronized static String cleanWhiteSpaceEscapeSequences(final String userMessage) {
-        return userMessage.replaceAll("[\\t\\n\\r]", "");
+        return "    "+userMessage.replaceAll("[\\t\\n\\r]", "");
     }
 
     private synchronized static List<Character> getASCIIMessageCharacterList(final String userMessage) {

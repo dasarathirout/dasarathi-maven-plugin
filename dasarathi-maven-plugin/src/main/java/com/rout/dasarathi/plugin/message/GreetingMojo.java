@@ -1,9 +1,11 @@
 package com.rout.dasarathi.plugin.message;
 
+import com.rout.dasarathi.plugin.message.arts.ArtMessenger;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
+import org.apache.maven.plugins.annotations.Parameter;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -19,11 +21,23 @@ public class GreetingMojo extends AbstractMojo {
     private static final String PLUGIN_MESSAGE =
             "★                        Hello... Maven Plugin!                        ★";
 
+
+    @Parameter(property = "skipMessageBanner")
+    protected boolean isMessageSkipped=false;
+
+    @Parameter(property = "userMessage")
+    protected String userMessage = "";
+
     @Override
     public void execute() throws MojoExecutionException {
-        logMessageFile();
+        //logMessageFile(); // Log From ArtManager
         getLog().info(STAR_LINE);
         getLog().info(PLUGIN_MESSAGE);
+        if(this.userMessage.isBlank()){
+            ArtMessenger.logTextArtMessage("Maven-v3");
+        }else {
+            ArtMessenger.logTextArtMessage(userMessage);
+        }
         getLog().info(STAR_LINE);
     }
 
