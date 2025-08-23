@@ -14,6 +14,13 @@
     <artifactId>dasarathi-maven-plugin-example</artifactId>
     <version>v1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.rout.dasarathi</groupId>
+            <artifactId>dasarathi-maven-plugin</artifactId>
+            <version>v1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
