@@ -2,7 +2,6 @@ package com.rout.dasarathi.plugin.message.arts;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.ConcurrentSkipListSet;
 
 public final class TextArt {
 
@@ -50,59 +49,59 @@ public final class TextArt {
 
     private static final String CHAR_005 = BLANK;
 
-    private static final String CHAR_006 = BLANK;;
+    private static final String CHAR_006 = BLANK;
 
-    private static final String CHAR_007 = BLANK;;
+    private static final String CHAR_007 = BLANK;
 
-    private static final String CHAR_008 = BLANK;;
+    private static final String CHAR_008 = BLANK;
 
-    private static final String CHAR_009 = BLANK;;
+    private static final String CHAR_009 = BLANK;
 
-    private static final String CHAR_010 = BLANK;;
+    private static final String CHAR_010 = BLANK;
 
-    private static final String CHAR_011 = BLANK;;
+    private static final String CHAR_011 = BLANK;
 
-    private static final String CHAR_012 = BLANK;;
+    private static final String CHAR_012 = BLANK;
 
-    private static final String CHAR_013 = BLANK;;
+    private static final String CHAR_013 = BLANK;
 
-    private static final String CHAR_014 = BLANK;;
+    private static final String CHAR_014 = BLANK;
 
-    private static final String CHAR_015 = BLANK;;
+    private static final String CHAR_015 = BLANK;
 
-    private static final String CHAR_016 = BLANK;;
+    private static final String CHAR_016 = BLANK;
 
-    private static final String CHAR_017 = BLANK;;
+    private static final String CHAR_017 = BLANK;
 
-    private static final String CHAR_018 = BLANK;;
+    private static final String CHAR_018 = BLANK;
 
-    private static final String CHAR_019 = BLANK;;
+    private static final String CHAR_019 = BLANK;
 
-    private static final String CHAR_020 = BLANK;;
+    private static final String CHAR_020 = BLANK;
 
-    private static final String CHAR_021 = BLANK;;
+    private static final String CHAR_021 = BLANK;
 
-    private static final String CHAR_022 = BLANK;;
+    private static final String CHAR_022 = BLANK;
 
-    private static final String CHAR_023 = BLANK;;
+    private static final String CHAR_023 = BLANK;
 
-    private static final String CHAR_024 = BLANK;;
+    private static final String CHAR_024 = BLANK;
 
-    private static final String CHAR_025 = BLANK;;
+    private static final String CHAR_025 = BLANK;
 
-    private static final String CHAR_026 = BLANK;;
+    private static final String CHAR_026 = BLANK;
 
-    private static final String CHAR_027 = BLANK;;
+    private static final String CHAR_027 = BLANK;
 
-    private static final String CHAR_028 = BLANK;;
+    private static final String CHAR_028 = BLANK;
 
-    private static final String CHAR_029 = BLANK;;
+    private static final String CHAR_029 = BLANK;
 
-    private static final String CHAR_030 = BLANK;;
+    private static final String CHAR_030 = BLANK;
 
-    private static final String CHAR_031 = BLANK;;
+    private static final String CHAR_031 = BLANK;
 
-    private static final String CHAR_032 = BLANK;;
+    private static final String CHAR_032 = BLANK;
 
     private static final String CHAR_033 =
 """
@@ -389,7 +388,7 @@ public final class TextArt {
 ░░░░░░░░░░\s
           \s
           \s
-          \s          
+          \s
 """;
 
     private static final String CHAR_051 =

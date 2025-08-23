@@ -1,6 +1,5 @@
 package com.rout.dasarathi.message.arts;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static com.rout.dasarathi.plugin.message.arts.TextArt.ART_MATRIX;
