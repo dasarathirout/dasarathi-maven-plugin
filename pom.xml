@@ -17,9 +17,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <compilerSource>8</compilerSource>
-        <compilerTarget>8</compilerTarget>
+        <compilerSource>17</compilerSource>
+        <compilerTarget>17</compilerTarget>
         <mavenGoalPrefix>dasarathi</mavenGoalPrefix>
+        <jlayerVersion>1.0.1.4</jlayerVersion>
         <junitVersion>5.13.4</junitVersion>
         <archunitVersion>1.4.1</archunitVersion>
         <surefireVersion>3.5.3</surefireVersion>
@@ -47,6 +48,11 @@
             <artifactId>maven-core</artifactId>
             <version>${mavenCoreVersion}</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.soundlibs</groupId>
+            <artifactId>jlayer</artifactId>
+            <version>${jlayerVersion}</version>
         </dependency>
         <dependency>
             <groupId>com.tngtech.archunit</groupId>
