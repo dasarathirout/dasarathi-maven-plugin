@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.rout.dasarathi.plugin.message.arts.TextArt.ART_MATRIX;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TextArtTest {
     private static final int CHARACTER_HEIGHT_12 = 12;
@@ -45,5 +46,19 @@ public class TextArtTest {
             mergedArtLine.append(artSubLine);
         }
         System.out.println(mergedArtLine);
+    }
+
+    @Test
+    void printTextArtWithCharacterIndex(){
+        StringBuilder mergedTextArtLine= new StringBuilder();
+        for (int height = 0; height < CHARACTER_HEIGHT_12; height++){
+            StringBuilder characterLine= new StringBuilder();
+            for (int characterIndex = CHARACTER_MIN; characterIndex < CHARACTER_MAX; characterIndex++) {
+                characterLine.append(ART_MATRIX.get(characterIndex).get(height));
+            }
+            mergedTextArtLine.append(System.lineSeparator()).append(characterLine);
+        }
+        System.out.println(mergedTextArtLine);
+        assertTrue(true);
     }
 }
