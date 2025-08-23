@@ -5,137 +5,102 @@ import java.util.List;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public final class TextArt {
-    private static final String CHAR_000 =
+
+    public static final String BLANK=
 """
+\s
+\s
+\s
+\s
+\s
+\s
+\s
+\s
+\s
+\s
+\s
 """;
 
-    private static final String CHAR_001 =
+    public static final String SPACE=
 """
-""";
+ \s
+ \s
+ \s
+ \s
+ \s
+ \s
+ \s
+ \s
+ \s
+ \s
+ \s
+ """;
 
-    private static final String CHAR_002 =
-"""
-""";
+    private static final String CHAR_000 = BLANK;
 
-    private static final String CHAR_003 =
-"""
-""";
+    private static final String CHAR_001 = BLANK;
 
-    private static final String CHAR_004 =
-"""
-""";
+    private static final String CHAR_002 = BLANK;
 
-    private static final String CHAR_005 =
-"""
-""";
+    private static final String CHAR_003 = BLANK;
 
-    private static final String CHAR_006 =
-"""
-""";
+    private static final String CHAR_004 = BLANK;
 
-    private static final String CHAR_007 =
-"""
-""";
+    private static final String CHAR_005 = BLANK;
 
-    private static final String CHAR_008 =
-"""
-""";
+    private static final String CHAR_006 = BLANK;;
 
-    private static final String CHAR_009 =
-"""
-""";
+    private static final String CHAR_007 = BLANK;;
 
-    private static final String CHAR_010 =
-"""
-""";
+    private static final String CHAR_008 = BLANK;;
 
-    private static final String CHAR_011 =
-"""
-""";
+    private static final String CHAR_009 = BLANK;;
 
-    private static final String CHAR_012 =
-"""
-""";
+    private static final String CHAR_010 = BLANK;;
 
-    private static final String CHAR_013 =
-"""
-""";
+    private static final String CHAR_011 = BLANK;;
 
-    private static final String CHAR_014 =
-"""
-""";
+    private static final String CHAR_012 = BLANK;;
 
-    private static final String CHAR_015 =
-"""
-""";
+    private static final String CHAR_013 = BLANK;;
 
-    private static final String CHAR_016 =
-"""
-""";
+    private static final String CHAR_014 = BLANK;;
 
-    private static final String CHAR_017 =
-"""
-""";
+    private static final String CHAR_015 = BLANK;;
 
-    private static final String CHAR_018 =
-"""
-""";
+    private static final String CHAR_016 = BLANK;;
 
-    private static final String CHAR_019 =
-"""
-""";
+    private static final String CHAR_017 = BLANK;;
 
-    private static final String CHAR_020 =
-"""
-""";
+    private static final String CHAR_018 = BLANK;;
 
-    private static final String CHAR_021 =
-"""
-""";
+    private static final String CHAR_019 = BLANK;;
 
-    private static final String CHAR_022 =
-"""
-""";
+    private static final String CHAR_020 = BLANK;;
 
-    private static final String CHAR_023 =
-"""
-""";
+    private static final String CHAR_021 = BLANK;;
 
-    private static final String CHAR_024 =
-"""
-""";
+    private static final String CHAR_022 = BLANK;;
 
-    private static final String CHAR_025 =
-"""
-""";
+    private static final String CHAR_023 = BLANK;;
 
-    private static final String CHAR_026 =
-"""
-""";
+    private static final String CHAR_024 = BLANK;;
 
-    private static final String CHAR_027 =
-"""
-""";
+    private static final String CHAR_025 = BLANK;;
 
-    private static final String CHAR_028 =
-"""
-""";
+    private static final String CHAR_026 = BLANK;;
 
-    private static final String CHAR_029 =
-"""
-""";
+    private static final String CHAR_027 = BLANK;;
 
-    private static final String CHAR_030 =
-"""
-""";
+    private static final String CHAR_028 = BLANK;;
 
-    private static final String CHAR_031 =
-"""
-""";
+    private static final String CHAR_029 = BLANK;;
 
-    private static final String CHAR_032 =
-"""
-""";
+    private static final String CHAR_030 = BLANK;;
+
+    private static final String CHAR_031 = BLANK;;
+
+    private static final String CHAR_032 = BLANK;;
 
     private static final String CHAR_033 =
 """
@@ -816,20 +781,4 @@ public final class TextArt {
                             .lines()
                             .toList()
             ).toList());
-
-
-    private static final String SPACE=
-"""
-
-
-
-
-
-
-
-
-
-
-
-""";
 }
