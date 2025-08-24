@@ -44,35 +44,29 @@
 
 ___
 
-#### Build & Package maven-plugin
-
-> ``` 
-> mvn clean install
-> ```
-
-#### Run maven-plugin
+#### Run maven-plugin : message
 
 > ``` 
 > # mvn groupId:artifactId:version:mojoName
 > mvn com.rout.dasarathi:dasarathi-maven-plugin:v1.0.0-SNAPSHOT:message
 > ```
 
-#### Plugin Console Output
+#### Plugin Console Output message
 
 >
-> <img src="./docs/img/image-cli-output-message.png" alt="Plugin Run Console Output">
+> <img src="./docs/img/image-cli-output-message.png" alt="Plugin Run Console Output Message">
 
-#### Run maven-plugin with prefix-name
+#### Run maven-plugin : message with prefix-name
 
 > ``` 
 > # mvn prefixName:goalName
 > mvn dasarathi:message
 > ```
 
-#### Plugin Console Output (with prefix-name)
+#### Plugin Console Output message (with prefix-name)
 
 >
-> <img src="./docs/img/image-cli-output-message-prefix.png" alt="Plugin Run Console Output Prefix">
+> <img src="./docs/img/image-cli-output-message-prefix.png" alt="Plugin Run Console Output Message Prefix">
 
 #### IDE Maven Tool Window Plugin
 
