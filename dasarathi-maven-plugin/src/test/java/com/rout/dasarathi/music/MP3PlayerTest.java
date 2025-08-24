@@ -21,7 +21,6 @@ public class MP3PlayerTest {
     }
 
     @Test
-    @Timeout(10)
     @Disabled
     void testPlayMusic() {
         try {
@@ -34,7 +33,6 @@ public class MP3PlayerTest {
     }
 
     @Test
-    @Timeout(60)
     @Disabled
     void testPlayExecutor() {
         try {

@@ -2,7 +2,45 @@
 
 ---
 
-### Run Maven Command
+### Run Maven Command with custom ASCII Art Message & Play Music when maven build
+
+```xml
+
+<plugin>
+    <groupId>com.rout.dasarathi</groupId>
+    <artifactId>dasarathi-maven-plugin</artifactId>
+    <version>v1.0.0-SNAPSHOT</version>
+    <executions>
+        <execution>
+            <id>1-validate-message</id>
+            <phase>
+                validate
+            </phase>
+            <goals>
+                <goal>message</goal>
+            </goals>
+            <configuration>
+                <userMessage>dasarathi-mvn-3</userMessage>
+            </configuration>
+        </execution>
+        <execution>
+            <id>2-validate-music</id>
+            <phase>
+                validate
+            </phase>
+            <goals>
+                <goal>music</goal>
+            </goals>
+            <configuration>
+                <isMusicSkipped>false</isMusicSkipped>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
+
+
+```
 
 ___
 
@@ -22,7 +60,7 @@ ___
 #### Plugin Console Output
 
 >
-> <img src="./docs/img/image-cli-output.png" alt="Plugin Run Console Output">
+> <img src="./docs/img/image-cli-output-message.png" alt="Plugin Run Console Output">
 
 #### Run maven-plugin with prefix-name
 
@@ -34,7 +72,7 @@ ___
 #### Plugin Console Output (with prefix-name)
 
 >
-> <img src="./docs/img/image-cli-output-prefix.png" alt="Plugin Run Console Output Prefix">
+> <img src="./docs/img/image-cli-output-message-prefix.png" alt="Plugin Run Console Output Prefix">
 
 #### IDE Maven Tool Window Plugin
 

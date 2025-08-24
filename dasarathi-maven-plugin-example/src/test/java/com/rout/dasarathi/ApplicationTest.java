@@ -1,7 +1,6 @@
 package com.rout.dasarathi;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
 
 public class ApplicationTest {
     @Test
