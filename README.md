@@ -40,7 +40,7 @@
 </plugin>
 ```
 
-#### Option (Add GitHub Package Registry)
+#### Add GitHub Package Registry
 ```xml
     <repositories>
         <repository>
@@ -72,7 +72,9 @@ public class ApplicationTest {
     }
 }
 ```
-
+---
+#### Complete Example
+[dasarathi-maven-plugin-example/pom.xml](dasarathi-maven-plugin-example/pom.xml)
 ___
 
 #### Run maven-plugin : message
