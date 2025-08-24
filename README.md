@@ -4,8 +4,9 @@
 
 ### Run Maven Command with custom ASCII Art Message & Play Music when maven build
 
-```xml
+#### Maven pom.xml add plugin
 
+```xml
 <plugin>
     <groupId>com.rout.dasarathi</groupId>
     <artifactId>dasarathi-maven-plugin</artifactId>
@@ -37,9 +38,26 @@
         </execution>
     </executions>
 </plugin>
+```
 
+#### Sample JUnit Test (To Run Enough Time , Can Play Music)
 
+```java
 
+import org.junit.jupiter.api.Test;
+
+public class ApplicationTest {
+    @Test
+    void testSleepTestToPlayMusic() {
+        try {
+            Thread.sleep(5 * 1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            assert (true);
+        }
+    }
+}
 ```
 
 ___
@@ -67,6 +85,35 @@ ___
 
 >
 > <img src="./docs/img/image-cli-output-message-prefix.png" alt="Plugin Run Console Output Message Prefix">
+
+---
+
+#### Run maven-plugin : music
+
+> ``` 
+> # mvn groupId:artifactId:version:mojoName
+> mvn com.rout.dasarathi:dasarathi-maven-plugin:v1.0.0-SNAPSHOT:music
+> ```
+
+#### Plugin Console Output music
+
+>
+> <img src="./docs/img/image-cli-output-music.png" alt="Plugin Run Console Output Music">
+
+#### Run maven-plugin : music with prefix-name
+
+> ``` 
+> # mvn prefixName:goalName
+> mvn dasarathi:music
+> ```
+
+#### Plugin Console Output music (with prefix-name)
+
+>
+> <img src="./docs/img/image-cli-output-music-prefix.png" alt="Plugin Run Console Output Music Prefix">
+
+
+---
 
 #### IDE Maven Tool Window Plugin
 
