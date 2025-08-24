@@ -40,6 +40,19 @@
 </plugin>
 ```
 
+#### Option (Add GitHub Package Registry)
+```xml
+    <repositories>
+        <repository>
+            <id>github-dasarathirout</id>
+            <url>https://github.com/dasarathirout/dasarathi-maven-plugin</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+```
+
 #### Sample JUnit Test (To Run Enough Time , Can Play Music)
 
 ```java
