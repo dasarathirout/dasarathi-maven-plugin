@@ -17,6 +17,7 @@ public class MP3Player {
             "RT3.mp3",
             "RT4.mp3");
     private static volatile boolean isPlayingNow= false;
+    private static volatile int musicIndex= new Random().nextInt(MUSIC_FILES.size());
     private static final ExecutorService MP3_PLAYER_DAEMON_EXECUTOR;
     static {
         ThreadFactory daemonThreadFactory = runnable -> {
@@ -58,7 +59,7 @@ public class MP3Player {
             while (!isPlayingNow && !Thread.currentThread().isInterrupted()) {
                 try {
                     isPlayingNow =true;
-                    playMusic(MP3Player.class.getClassLoader().getResourceAsStream(MUSIC_FILES.get(new Random().nextInt(MUSIC_FILES.size()))));
+                    playMusic(MP3Player.class.getClassLoader().getResourceAsStream(MUSIC_FILES.get(musicIndex)));
                 } catch (Exception e) {
                     Thread.currentThread().interrupt();
                 }finally {

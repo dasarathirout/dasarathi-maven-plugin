@@ -41,6 +41,19 @@
                             <userMessage>dasarathi-mvn-3</userMessage>
                         </configuration>
                     </execution>
+
+                    <execution>
+                        <id>2-validate-music</id>
+                        <phase>
+                            validate
+                        </phase>
+                        <goals>
+                            <goal>music</goal>
+                        </goals>
+                        <configuration>
+                            <isMusicSkipped>false</isMusicSkipped>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
