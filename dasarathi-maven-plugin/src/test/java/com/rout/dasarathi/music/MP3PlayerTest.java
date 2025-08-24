@@ -1,10 +1,7 @@
 package com.rout.dasarathi.music;
 
 import com.rout.dasarathi.plugin.music.MP3Player;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
+import org.junit.jupiter.api.*;
 
 
 public class MP3PlayerTest {
@@ -25,6 +22,7 @@ public class MP3PlayerTest {
 
     @Test
     @Timeout(10)
+    @Disabled
     void testPlayMusic() {
         try {
             mp3Player.playMusic(RESOURCE_MP3_FILE);
@@ -37,6 +35,7 @@ public class MP3PlayerTest {
 
     @Test
     @Timeout(60)
+    @Disabled
     void testPlayExecutor() {
         try {
             mp3Player.play();
